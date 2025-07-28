@@ -1,0 +1,91 @@
+/*color de fondo*/
+body{
+    background-color: #00B3AD;
+}
+/*estilo del encabezado*/
+header{text-align: center;
+      font-size: 30px;
+      color: #642400;
+      text-align: center;
+      position: relative;
+      top: 0;
+      width: 100%;
+      height: 100px;
+      
+      }
+   /*Menu desplegable*/ 
+.container-menu {
+  display: flex;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+} 
+
+ul {
+  list-style: none;
+} 
+
+.nav li a {
+  background-color: #640000;
+  color:antiquewhite;
+  width: 100px;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav li a:hover{
+  background-color: #434343;
+}
+
+.nav > li {
+  float:left;
+} 
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+/*estilo de la imagenes*/
+.cont-img {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.img-vinos {
+  text-align: center;
+}
+
+
+/*estilo de los enlaces*/
+a {
+  color: #006663;
+  cursor: pointer;    
+  transition: backgound-color 0.3s ease;
+}
+/*estilo del titulo*/
+h1{
+  font-weight: 400;
+  color: red
+}
+/*galeria de productos*/
+.galeria{
+    display: flex;
+    flex-direction: column;
+}
+/*pie de pagina*/
+ footer {background-color: grey;
+         color:black;
+         text-align: center;
+         padding: 10px;}
